@@ -31,7 +31,7 @@ const defaultForm = {
   specialInstructions: "", prohibitedActions: "", additionalNotes: "",
 };
 
-export default function App() {
+function App() {
   const [form, setForm] = useState(defaultForm);
   const [step, setStep] = useState(1);
   const [preview, setPreview] = useState(false);
